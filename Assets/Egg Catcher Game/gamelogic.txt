@@ -1,0 +1,41 @@
+Game Egg Catcher
+(Level 1)
+Time:2 min
+Gameplay
+1. Egg -> fall from sky.(rigibody-> gravity)
+2. Bucket -> egg collect-> point++ ->destroy.
+3. Egg->not in bucket-> ground->Destroy.-> condition max3-> point-
+4. Bomb-> fall from sky-> bucket-> Game Over.
+
+Condition:- 
+1. Wining:- 2min-> 10 egg collect. point+
+2. losing:- (a)2min-> 10 egg not collect(Timeout)
+            (b)>3 egg ->ground-> point-
+3. GameOver:- Bomb Collect -> GameOver
+
+Assets:-
+1.Egg
+2.Basket
+3.Background
+4.Bomb.
+5.Broken Egg
+ 
+Additional
+1. Egg-> ground-> broken egg
+2. Sound
+3. soft Bg music
+
+Concept Used:-
+1. Rigidbody
+2. Instantiation(Generate object at runtime)
+3. Prefab
+4. rect Transform
+5. Canvas
+6. Update
+7. Random Function
+8. Collider2d
+9. Trigger
+10.OnCollisionEnter2D()
+11.OnTriggerEnter2D()
+
+
